@@ -1,6 +1,4 @@
-require 'minitest/autorun'
-require 'minitest/pride'
-require './lib/node'
+require './test_helper'
 
 class NodeTest < MiniTest::Test
 
@@ -16,5 +14,7 @@ class NodeTest < MiniTest::Test
     assert_equal "plop", @node.data
     assert_nil nil, @node.next_node
   end
+
+
 
 end
