@@ -27,4 +27,9 @@ class JungleBeatTest < MiniTest::Test
     assert_equal 6, @jb.count
   end
 
+  def test_play_makes_sounds
+    @jb.append("deep doo ditt woo hoo shu")
+    assert @jb.play
+  end
+
 end
