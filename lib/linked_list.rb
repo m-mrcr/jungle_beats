@@ -36,6 +36,8 @@ class LinkedList
     accumulate.count
   end
 
+  private
+
   def accumulate
     return [] if @head == nil
     accumulator = []
