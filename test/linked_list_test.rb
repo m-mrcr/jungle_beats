@@ -95,7 +95,7 @@ class LinkedListTest < MiniTest::Test
     refute @list.includes?("dep")
   end
 
-  def test_pop_removes_last_word
+  def test_it_can_remove_last_node
     @list.append("deep")
     @list.append("woo")
     @list.append("shi")
